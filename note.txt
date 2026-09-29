@@ -1,0 +1,66 @@
+CPU scheduling
+--------------
+CPU scheduling is a process used by the operating system to decide which task or process gets to use the CPU at a particular time.
+
+- can handle one task at a time
+- maximize CPU scheduling
+- minimize the response and waiting time of the process 
+
+
+Arrival Time: The time at which the process arrives in the ready queue.
+
+Completion Time: The time at which the process completes its execution.
+
+Burst Time: Time required by a process for CPU execution.
+
+Turn Around Time: Time Difference between completion time and arrival time.
+    Turn Around Time = Completion Time  –  Arrival Time
+
+Waiting Time(W.T): Time Difference between turn around time and burst time.
+    Waiting Time = Turn Around Time  –  Burst Time 
+
+
+
+Throughput: The average CPU performance is the number of processes performed and completed during each unit. This is called throughput.
+
+
+Different Types of CPU Scheduling Algorithms
+--------------------------------------------
+There are mainly two types of scheduling methods:
+
+1. Preemptive Scheduling: Preemptive scheduling is used when a process switches from running state to ready state or from the waiting state to the ready state.
+
+2. Non-Preemptive Scheduling: Non-Preemptive scheduling is used when a process terminates , or when a process switches from running state to waiting state.
+
+Preemptive Scheduling
+---------------------
+1. Priority scheduling
+2. Shortest Remaining job First 
+3. Longest Remaining Job First 
+4. Round Robin 
+
+
+Non-Preemptive Scheduling
+-------------------------
+1. First Come First Serve 
+2. Shortest Job First 
+
+
+
+First Come, First Serve (FCFS)
+------------------------------
+- Is a non-Preemptive cpu scheduling 
+- processes are attended to in the order in which they arrive in the ready queue
+
+    WORKING
+    -------
+    Arrival : process enter the system and placed in a queue in order of they arrived.
+
+    Execution : CPU takes the 1st process from the front of the queue, executes it until it is completed, and then it is removed from the queue
+
+    Repeat : CPU takes the next process in the queue and repeat the execution process - and it continues until no other process left in the queue.
+
+
+There are 2 methods for solving the problem
+    - one where all processes arrive at the same time.
+    - another where processes arrive at different times.
