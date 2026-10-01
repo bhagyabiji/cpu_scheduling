@@ -64,3 +64,34 @@ First Come, First Serve (FCFS)
 There are 2 methods for solving the problem
     - one where all processes arrive at the same time.
     - another where processes arrive at different times.
+
+
+     Process with same arrival time 
+     ------------------------------
+     - if the processes arrival time are 0, for example-
+       
+       Process      Arrival time        Burst time  
+       p1           0                   5
+       p2           0                   3
+       p3           0                   8
+
+       - p1 will start first and run for 5 units ie, from 0 to 5
+       - p2 will then start and will run for 3 units ie, from 5 to 8
+       p3 will run last for 8 units ie, from 8 to 16
+
+       Gantt Chart
+        __________________________
+       | p1   | p2  |     p3      |
+       |______|_____|_____________|
+       0      5     8             16
+
+
+        Process	 AT	 BT	 CT	   TAT	      WT
+        P1	     0	 5	 5	 5-0 = 5	5-5 = 0
+        P2	     0	 3	 8	 8-0 = 8	8-3 = 5
+        P3	     0	 8	 16	 16-0 = 16	16-8 = 8
+
+        avg TAT = (5+8+16)/3 = 9.67
+        avg WT = (0+5+8)/3 = 4.33
+
+        
