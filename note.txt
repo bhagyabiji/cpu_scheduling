@@ -64,3 +64,8 @@ First Come, First Serve (FCFS)
 There are 2 methods for solving the problem
     - one where all processes arrive at the same time.
     - another where processes arrive at different times.
+
+
+     Process with same arrival time 
+     ------------------------------
+     
