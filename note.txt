@@ -75,5 +75,12 @@ There are 2 methods for solving the problem
        p2           0                   3
        p3           0                   8
 
-       - p1 will start first and run for 5 units of timr ie, from 0 to 5
-       - p2 will start 
+       - p1 will start first and run for 5 units ie, from 0 to 5
+       - p2 will then start and will run for 3 units ie, from 5 to 8
+       p3 will run last for 8 units ie, from 8 to 16
+
+       Gantt Chart
+        __________________________
+       | p1   | p2  |     p3      |
+       |______|_____|_____________|
+       0      5     8             16
