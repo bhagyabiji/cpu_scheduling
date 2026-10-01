@@ -94,4 +94,35 @@ There are 2 methods for solving the problem
         avg TAT = (5+8+16)/3 = 9.67
         avg WT = (0+5+8)/3 = 4.33
 
-        
+    
+    Processes with Different Arrival Times
+    --------------------------------------
+    Process	    Burst Time(BT)    Arrival Time (AT)
+    P1	        5 ms	            2 ms
+    P2	        3 ms	            0 ms
+    P3	        4 ms	            4 ms
+
+    - P2 arrives at time 0 and runs for 3 units, so its completion time is:
+    Completion Time of P2=0+3=3
+    - P1 arrives at time 2 but has to wait for P2 to finish. P1 starts at time 3 and runs for 5 units. Its completion time is:
+    Completion Time of P1=3+5=8
+    - P3 arrives at time 4 but has to wait for P1 to finish. P3 starts at time 8 and runs for 4 units. Its completion time is:
+    Completion Time of P3=8+4=12 
+
+
+    Gantt Chart
+        __________________________
+       | p2   | p1  |     p3      |
+       |______|_____|_____________|
+       0      3     5            12
+    
+
+    Prcs	CT	    AT	    WT
+    P2	    3 ms	3 ms	0 ms
+    P1	    8 ms	6 ms	1 ms
+    P3	    12 ms	8 ms	4 ms
+
+    Average Turnaround time = 5.67
+    Average waiting time = 1.67
+
+    
