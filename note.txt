@@ -68,4 +68,12 @@ There are 2 methods for solving the problem
 
      Process with same arrival time 
      ------------------------------
-     
+     - if the processes arrival time are 0, for example-
+       
+       Process      Arrival time        Burst time  
+       p1           0                   5
+       p2           0                   3
+       p3           0                   8
+
+       - p1 will start first and run for 5 units of timr ie, from 0 to 5
+       - p2 will start 
