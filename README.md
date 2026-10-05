@@ -13,12 +13,11 @@ There are mainly two types of scheduling methods:
 Preemptive Scheduling
 ---------------------
 1. Priority scheduling
-2. Shortest Remaining job First 
-3. Longest Remaining Job First 
-4. Round Robin 
+2. Shortest Remaining Time First 
+3. Round Robin 
 
 
 Non-Preemptive Scheduling
 -------------------------
-1. First Come First Serve 
+1. First Come First Serve (FCFS)
 2. Shortest Job First 
