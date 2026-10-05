@@ -20,7 +20,6 @@ Waiting Time(W.T): Time Difference between turn around time and burst time.
     Waiting Time = Turn Around Time  –  Burst Time 
 
 
-
 Throughput: The average CPU performance is the number of processes performed and completed during each unit. This is called throughput.
 
 
@@ -38,7 +37,6 @@ Preemptive Scheduling
 2. Shortest Remaining job First 
 3. Longest Remaining Job First 
 4. Round Robin 
-
 
 Non-Preemptive Scheduling
 -------------------------
