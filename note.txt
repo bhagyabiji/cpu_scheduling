@@ -115,7 +115,7 @@ There are 2 methods for solving the problem
        0      3     8            12
     
 
-    Prcs	CT	    AT	    WT
+    Prcs	CT	    TAT	    WT
     P2	    3 ms	3 ms	0 ms
     P1	    8 ms	6 ms	1 ms
     P3	    12 ms	8 ms	4 ms
