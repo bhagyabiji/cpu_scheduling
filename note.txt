@@ -133,9 +133,13 @@ Disadvantage of FCFS
 - As it is a Non-preemptive CPU Scheduling Algorithm, FCFS can result in long waiting times, especially if a long process arrives before a shorter one. This is known as the convoy effect, where shorter processes are forced to wait behind longer processes, leading to inefficient execution.
 
 
-
 SJF (SHORTEST JOB FIRST) Scheduling
 -----------------------------------
 In the Shortest Job First scheduling algorithm, the processes are scheduled in ascending order of their CPU burst times, i.e. the CPU is allocated to the process with the shortest execution time.
+
+There are two variants of SJF scheduling −
+
+    1. SJF non-preemptive scheduling
+    2. SJF preemptive scheduling
 
 
