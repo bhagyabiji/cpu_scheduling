@@ -35,8 +35,7 @@ Preemptive Scheduling
 ---------------------
 1. Priority scheduling
 2. Shortest Remaining job First 
-3. Longest Remaining Job First 
-4. Round Robin 
+3. Round Robin 
 
 Non-Preemptive Scheduling
 -------------------------
